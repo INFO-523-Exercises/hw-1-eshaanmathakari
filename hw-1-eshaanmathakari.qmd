@@ -6,15 +6,15 @@ editor: visual
 
 **##HW-1-INFO523**
 
-#Eshaan Prasad Mathakari (eshaanmathakari)
+# Eshaan Prasad Mathakari (eshaanmathakari)
 
-#Installing necessary packages
+# Installing necessary packages
 
 ```{r}
 #install.packages("DMwR2")
 ```
 
-#Calling the needed library
+# Calling the needed library
 
 ```{r}
 library(DMwR2)
@@ -46,7 +46,7 @@ detach("package:dbplyr", unload=TRUE)
 library(dplyr)
 ```
 
-#checking what packages are installed
+# checking what packages are installed
 
 ```{r}
 installed.packages()
@@ -56,7 +56,7 @@ installed.packages()
 old.packages()
 ```
 
-#updating packages
+# updating packages
 
 ```{r}
 update.packages()
@@ -74,7 +74,7 @@ mean
 help(mean)
 ```
 
-#searching on the R platform for 'Neural Networks'
+# searching on the R platform for 'Neural Networks'
 
 ```{r}
 RSiteSearch('neural networks')
@@ -84,7 +84,7 @@ RSiteSearch('neural networks')
 save.image()
 ```
 
-#to get and set working directory
+# to get and set working directory
 
 ```{r}
 getwd()
@@ -96,7 +96,7 @@ setwd("/cloud/project") # setwd using what you get from getwd()
 getwd()
 ```
 
-#assigning a variable value and performing arithmetic functions on it
+# assigning a variable value and performing arithmetic functions on it
 
 ```{r}
 vat <- 0.2
@@ -145,7 +145,7 @@ max(4, 5, 6, 12, -4)
 mean(4, 5, 6, 12, -4)
 ```
 
-#generating a random number using set.seed and functions regarding same
+# generating a random number using set.seed and functions regarding same
 
 ```{r}
 set.seed(1)  
@@ -269,7 +269,7 @@ prop.table(t, 2)
 prop.table(t) * 100
 ```
 
-#creating vectors and performing operations on them
+# creating vectors and performing operations on them
 
 ```{r}
 v <- c(2, 5, 3, 4)
@@ -382,7 +382,7 @@ v1+v3
 2*v1
 ```
 
-#using functions in R
+# using functions in R
 
 ```{r}
 mysum <- function (x){
@@ -554,7 +554,7 @@ pH<- 0
 pH
 ```
 
-#creating and performing arithmetic operations on Matrices
+# creating and performing arithmetic operations on Matrices
 
 ```{r}
 m <- c(45, 23, 66, 77, 33, 44, 56, 12, 78, 23)
@@ -783,7 +783,7 @@ matrix1/c(1, 2, 3)
 matrix1/c(1, 2, 3, 1, 2, 3, 1, 2, 3)
 ```
 
-#making lists
+# making lists
 
 ```{r}
 mylist <- list(stud.id=34453,
@@ -1081,7 +1081,7 @@ is.vector(x)
 typeof(x)
 ```
 
-#creating and classifying classes
+# creating and classifying classes
 
 ```{r}
 class(pe[1:15, c("bill_length_mm", "bill_depth_mm")])
